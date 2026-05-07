@@ -1,6 +1,6 @@
 resource "aws_security_group" "docker_sg" {
 
-  name = "docker-security-group"
+  name = "docker-security-group-v2"
 
   ingress {
     from_port   = 22
